@@ -6,6 +6,9 @@ import java.util.regex.Pattern;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+// Single responsibility means a class should be responsible to do one task.
+// Here class is taking request from user,validating user and storing the user.
+// which voilates single responsibilty for a class
 //Handles incoming JSON requests that work on User resource/entity
 public class UserController {
 	//Store used by controller
