@@ -1,4 +1,4 @@
-Builder Design Pattern
+<b>Builder Design Pattern<b>
 
 1. Complex process to construct object involving multiple steps.
 2. We remove complex steps of object creation and add it to some builder class.
