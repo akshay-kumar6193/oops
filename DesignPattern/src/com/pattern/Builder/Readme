@@ -1,4 +1,8 @@
 Builder Design Pattern
 
 1. Complex process to construct object involving multiple steps.
-2.we remove complex steps of object creation and add it to some abstract class
+2. We remove complex steps of object creation and add it to some builder class.
+3. Method chaining is not mandatory for this pattern.Only the director class(main.java) implementation will change. 
+3. It is better to have inner class implementation as we dont have any setter method defined which make our class immutable.
+4. Defining abstract class is optional if we dont have any futher implementation ,can use direct 
+   concrete class for the same.
